@@ -1,0 +1,55 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1{
+  color: darkcyan;
+  margin: 2px;
+}
+.caluculator{
+  width: 360px;
+}
+
+.output{
+  outline: none;
+  border: none;
+  width: 340px;
+  height: 50px;
+  font-size: 32px;
+  padding: 10px;
+  background-color: black;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-top: 2px;
+  color: white;
+}
+button{
+  width: 90px;
+  height: 70px;
+  font-size: 26px;
+  cursor: pointer;
+  border: none;
+  border-top: 1px solid grey;
+  border-right:1px solid grey;
+  
+}
+.row1 button{
+  width: 120px;
+  border-top: 1px solid grey;
+  
+}
+.row4 button{
+  width: 180px;
+  
+}
+button:hover{
+  background-color:lightgoldenrodyellow;
+
+}
+button:active{
+  background-color:lightcoral;
+
+}
